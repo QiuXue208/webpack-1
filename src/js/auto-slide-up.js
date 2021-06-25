@@ -1,6 +1,7 @@
+alert(1)
 !function (){
   // 添加 offset 类
-  var specialTags = document.querySelectorAll('[data-x]')
+  let specialTags = document.querySelectorAll('[data-x]')
   for(let i =0;i<specialTags.length; i++){
     specialTags[i].classList.add('offset')
   }
