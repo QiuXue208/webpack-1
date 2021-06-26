@@ -67,10 +67,13 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-let x = 3;
+var x = 3;
 var y = 5;
 console.log(x + y);
 
+var func = function func(x, y) {
+  return x + y;
+};
 
 /***/ })
 /******/ ]);

@@ -6,4 +6,18 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'my-first-webpack.bundle.js',
   },
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [['@babel/preset-env', { targets: 'defaults' }]],
+          },
+        },
+      },
+    ],
+  },
 };
