@@ -6,10 +6,10 @@
   "author": "Charles <1309571292@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "babel": "^6.23.0"
+    "babel": "^6.23.0",
+    "webpack": "3.10.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "webpack": "^5.40.0"
+    "babel-cli": "^6.26.0"
   }
 }
